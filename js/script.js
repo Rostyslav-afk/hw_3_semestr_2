@@ -22,4 +22,7 @@ console.log("HealthBar(org 100):", resultFirst, "EnergyBar(org 250):", resultSec
  const newPrice = totalPrice - rebaja;
  console.log("Ціна зі знижкою:", newPrice + "UAH");
 
- // #5
+ // #5 Створити змінну для зберігання числа з плаваючою комою. Використати метод Math.floor() для округлення числа до меншого та вивести результат в консоль.
+const pointNumber = 1.6;
+console.log(Math.floor(pointNumber))
+
