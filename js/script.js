@@ -26,3 +26,22 @@ console.log("HealthBar(org 100):", resultFirst, "EnergyBar(org 250):", resultSec
 const pointNumber = 1.6;
 console.log(Math.floor(pointNumber))
 
+// #6 Створити змінну для зберігання рядка, який містить числа з плаваючою комою. Використати метод parseFloat() для перетворення рядка у десяткове число та вивести результат в консоль.
+const floatNumber = "6.78wad12";
+console.log(Number.parseFloat(floatNumber));
+
+// #7 Створити змінну для зберігання рядка, який містить ціле число. Використати метод parseInt() для перетворення рядка у ціле число та вивести результат в консоль.
+const intNumber = "23";
+console.log(Number.parseInt(intNumber));
+
+// #8 Створити змінну для зберігання числа. Використати метод Math.sqrt() для обчислення квадратного кореня числа та вивести результат в консоль.
+const vNumber = 9;
+console.log("V9 = " + Math.sqrt(vNumber));
+
+// #9 Створити змінні для зберігання цілочисельного значення та рядка з числом у вигляді рядка. Використати метод parseInt() для перетворення рядка у ціле число та вивести результат в консоль. Потім використати метод toString() для перетворення цілочисельного значення у рядок та вивести результат в консоль.
+const theNumber = "12.a2ad";
+console.log(Number.parseInt(theNumber));
+console.log(theNumber.toString());
+
+
+
